@@ -1,8 +1,7 @@
 QT += core gui opengl widgets sql network xml
 win32: LIBS += -lopengl32 -lglu32
 
-
-CONFIG += qtc_runnable
+CONFIG += debug_and_release warn_on
 TEMPLATE = app
 TARGET = GUI
 
@@ -18,19 +17,23 @@ SOURCES += \
 
 INCLUDEPATH += $$PWD/../Math
 
+
+CONFIG(debug, debug|release): DESTDIR = $$OUT_PWD/../bin/debug
+else: DESTDIR = $$OUT_PWD/../bin/release
+
 # ===== 链接 Math 库 =====
-win32-msvc* {
-    CONFIG(debug, debug|release) {
-        # Debug 模式：指向 debug 子目录
-        LIBS += -L$$OUT_PWD/../Math/debug -lMath
-    } else {
-        # Release 模式
-        LIBS += -L$$OUT_PWD/../Math/release -lMath
-    }
+
+CONFIG(debug, debug|release) {
+    # Debug 模式：指向 debug 子目录
+    LIBS += -L$$OUT_PWD/../bin/debug -lMath
 } else {
-    # MinGW 兜底
-    LIBS += -L$$OUT_PWD/../Math -lMath
+    # Release 模式
+    LIBS += -L$$OUT_PWD/../bin/release -lMath
 }
+
+
+
+
 
 RESOURCES += \
     resources/gui_resource.qrc

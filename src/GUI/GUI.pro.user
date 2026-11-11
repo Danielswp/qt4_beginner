@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.1, 2026-10-21T09:18:58. -->
+<!-- Written by QtCreator 4.11.1, 2026-10-22T14:36:44. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -234,8 +234,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project/qt4_rhi/src/GUI/GUI/GUI.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project/qt4_rhi/src/GUI/GUI/GUI.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">GUI2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project/qt4_rhi/src/GUI/GUI.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project/qt4_rhi/src/GUI/GUI.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -246,7 +247,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project/qt4_rhi/src/build-GUI-Qt_4_8_6_MSVC_2008_x86_Windows_SDK_10_CDB_x86-Debug/GUI</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project/qt4_rhi/src/build-GUI-Qt_4_8_6_MSVC_2008_x86_Windows_SDK_10_CDB_x86-Debug</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
